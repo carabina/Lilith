@@ -12,13 +12,13 @@ import UIKit
 public class LFConfiguration: NSObject {
     
     /** A shared instance of LFConfiguration. */
-    static let sharedInstance = LFConfiguration()
+    public static let sharedInstance = LFConfiguration()
     private override init() {}
     
     var font = UIFont(name: "Avenir Next", size: 20)
     var textColor = UIColor.whiteColor()
     
-    public func configure(font:UIFont, textColor:UIColor) {
+    public func configureText(font:UIFont, textColor:UIColor) {
         self.font = font
         self.textColor = textColor
     }

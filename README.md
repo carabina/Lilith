@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 8.0+ 
+- Xcode 7.3+
 
 ## Installation
 
@@ -22,7 +24,7 @@ pod "Lilith"
 
 ## Author
 
-joshuaarnold, josharnold997@gmail.com
+Josh Arnold, josharnold997@gmail.com
 
 ## License
 
