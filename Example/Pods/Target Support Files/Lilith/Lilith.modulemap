@@ -1,0 +1,6 @@
+framework module Lilith {
+  umbrella header "Lilith-umbrella.h"
+
+  export *
+  module * { export * }
+}
