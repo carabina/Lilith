@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Lilith_Example' do
+  pod 'Lilith', :path => '../'
+
+  target 'Lilith_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
