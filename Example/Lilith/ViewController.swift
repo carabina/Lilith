@@ -14,11 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        //Configure default values
+        LFConfiguration.sharedInstance.configureText(UIFont(name: "Avenir Next", size: 20)!, textColor: UIColor.blackColor())
+        
+        let label = LFLabel(frame: CGRect(x: 16, y: 32, width: view.frame.width-32, height: 64), text: "Hello world.", font: UIFont(name: "Avenir Next", size: 20)!, color: UIColor.blackColor())
+        view.addSubview(label)
+        
     }
 
 }

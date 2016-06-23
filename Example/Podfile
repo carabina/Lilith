@@ -6,6 +6,6 @@ target 'Lilith_Example' do
   target 'Lilith_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
