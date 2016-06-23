@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		3A8094703BB88F516541C4A80BE43D44 /* Lilith-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C601FCF1A33F7D8C31A2BB6A55A97B /* Lilith-dummy.m */; };
 		4DF330CCFF09709316DC3DF607B11D10 /* Lilith-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB894A24C4AD9420F9AA3929EC7C272B /* Lilith-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8888DE1D1BFC5200021FEB /* LFConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8888DC1D1BFC5200021FEB /* LFConfiguration.swift */; };
+		AB8888DF1D1BFC5200021FEB /* LFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8888DD1D1BFC5200021FEB /* LFLabel.swift */; };
 		B8C82D43F3F8A5F50108288DF7933989 /* Pods-Lilith_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420759A12E54C4F5A2A051F2E2B0BD98 /* Pods-Lilith_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0FB0D5E0E0EEF825175BF330E0BE1D9 /* Pods-Lilith_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A496FAD8941AD67F9D9D443262D9755 /* Pods-Lilith_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C393CA8504F3561839E0B88993BE00F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		DD9CD2E4DBDDE56728D173E738A5EEEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E1C60F9F1BAF4AE9BAE071453CD1578E /* Pods-Lilith_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68333349807E714D0EA8D72D9F55E1 /* Pods-Lilith_Example-dummy.m */; };
 		EA5AE527F5BA776823CFFAC004854C0C /* Pods-Lilith_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06320649B5BDF651FB0FB330CA29F6E1 /* Pods-Lilith_Tests-dummy.m */; };
-		F120F8AF2DA072410CA3A966377D1C3A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9083575FE92AF06DE722165F8ADD5E /* ReplaceMe.swift */; };
 		F1224B5338AA3A0D0587F99F1019E996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		879F9121A046CD5F250DCED42267D983 /* Pods-Lilith_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilith_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C9E41666F4AD13FA553AE3BF74D43F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8888DC1D1BFC5200021FEB /* LFConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFConfiguration.swift; sourceTree = "<group>"; };
+		AB8888DD1D1BFC5200021FEB /* LFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFLabel.swift; sourceTree = "<group>"; };
 		AC96D1C67BC9D83E125576EF6B587F4D /* Pods-Lilith_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilith_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B432EF333FB45843156AC9D2DA022D2C /* Pods-Lilith_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilith_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B91B057EC475B13D14D0B065D6403FE4 /* Pods-Lilith_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilith_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		DB894A24C4AD9420F9AA3929EC7C272B /* Lilith-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lilith-umbrella.h"; sourceTree = "<group>"; };
 		E86CA852B9A4AF522360D51A42C29AB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A05D484F9BE71F6083B30182D45698 /* Pods-Lilith_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilith_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA9083575FE92AF06DE722165F8ADD5E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		EE078C9E3A6E57E706B74AB112EDA1B9 /* Lilith.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Lilith.modulemap; sourceTree = "<group>"; };
 		F3958AB3AC6EEDE2396818F21E470F22 /* Lilith-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lilith-prefix.pch"; sourceTree = "<group>"; };
 		FFDEFDCD1B9A7E16A16942CF42D31C54 /* Pods-Lilith_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilith_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -95,7 +97,8 @@
 		00E612F09921EBD50428A66219465DEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EA9083575FE92AF06DE722165F8ADD5E /* ReplaceMe.swift */,
+				AB8888DC1D1BFC5200021FEB /* LFConfiguration.swift */,
+				AB8888DD1D1BFC5200021FEB /* LFLabel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,8 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8888DE1D1BFC5200021FEB /* LFConfiguration.swift in Sources */,
 				3A8094703BB88F516541C4A80BE43D44 /* Lilith-dummy.m in Sources */,
-				F120F8AF2DA072410CA3A966377D1C3A /* ReplaceMe.swift in Sources */,
+				AB8888DF1D1BFC5200021FEB /* LFLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 553B63931724A34522944BE71BAB6950 /* Lilith.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -441,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 553B63931724A34522944BE71BAB6950 /* Lilith.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
