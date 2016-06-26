@@ -1,11 +1,9 @@
-# Lilith
+![Lilith Banner](/images/banner.png)
 
 [![CI Status](http://img.shields.io/travis/joshuaarnold/Lilith.svg?style=flat)](https://travis-ci.org/joshuaarnold/Lilith)
 [![Version](https://img.shields.io/cocoapods/v/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 [![License](https://img.shields.io/cocoapods/l/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 [![Platform](https://img.shields.io/cocoapods/p/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
-
-![Lilith Banner](/images/banner.png)
 
 ## Example
 
