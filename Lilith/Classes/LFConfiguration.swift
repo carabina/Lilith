@@ -11,16 +11,25 @@ import UIKit
 /** Configure Lilith. */
 public class LFConfiguration: NSObject {
     
-    /** A shared instance of LFConfiguration. */
-    public static let sharedInstance = LFConfiguration()
-    private override init() {}
-    
     var font = UIFont(name: "Avenir Next", size: 20)
-    var textColor = UIColor.whiteColor()
+    var textColor = UIColor.blackColor()
+    var textAlignment:NSTextAlignment = .Center
+    var numberOfLines:Int = 0
+    var resize:Bool = false
     
-    public func configureText(font:UIFont, textColor:UIColor) {
+    /** A instance of LFConfiguration using default values.*/
+    public override init() {
+        super.init()
+    }
+    
+    /** Initialize an LFConfiguration with properties. */
+    public init(font:UIFont, textColor:UIColor, textAlignment:NSTextAlignment, numberOfLines:Int, resize:Bool) {
+        super.init()
         self.font = font
         self.textColor = textColor
+        self.textAlignment = textAlignment
+        self.numberOfLines = numberOfLines
+        self.resize = resize
     }
     
 }
