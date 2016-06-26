@@ -5,12 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 [![Platform](https://img.shields.io/cocoapods/p/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 
+![Lilith Banner](/images/banner.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-- iOS 8.0+ 
+- iOS 8.0+
 - Xcode 7.3+
 
 ## Installation
