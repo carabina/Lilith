@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 [![Platform](https://img.shields.io/cocoapods/p/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 
-Lilith is a UI Library written in swift. Lilith makes UI simple.
+Lilith is a UI Library written in swift designed to make working with UIKit faster.
 
 ## Example
 
