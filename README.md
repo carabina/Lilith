@@ -5,7 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 [![Platform](https://img.shields.io/cocoapods/p/Lilith.svg?style=flat)](http://cocoapods.org/pods/Lilith)
 
-Lilith is a UI Library written in swift designed to make working with UIKit faster.
+Lilith is a UI Library written in Swift designed to make working with UIKit faster and more user friendly.
+
+## Usage
+
+```swift
+
+let config = LFConfiguration(font: UIFont(name: "Avenir Next", size: 20)!, textColor: .blackColor(), textAlignment: .Left, numberOfLines: 0, resize: true)
+
+let label = LFLabel(frame: CGRect(x: 16, y: 0, width: view.frame.width-32, height: 64), configuration: config, text: "Hello world!")
+view.addSubview(label)
+
+//Create a LFButton with the full width of the view (adjusts height automatically)
+let button = LFButton(text: "Click me", view: view, point: 0, configuration: config)  
+button.below(label2, padding: 16)//Move button to the max Y of label2 + padding of 32  button.textColor(UIColor.orangeColor())//Automatically set button's text color for normal & highlighted state  button.fontSize(15)  
+button.target("doSomething", object: self) //Quickly Target a method (assumes the control event is TouchUpInside)  
+view.addSubview(button)
+
+```
 
 ## Example
 
